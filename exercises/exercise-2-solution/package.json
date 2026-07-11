@@ -1,0 +1,10 @@
+{
+  "name": "cedarcrypt-exercise-2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CedarCrypt - implementing integrity with WAICT (workshop, Exercise 2)",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
