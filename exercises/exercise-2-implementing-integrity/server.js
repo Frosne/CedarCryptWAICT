@@ -15,14 +15,14 @@
  * No dependencies -- uses only Node's built-in modules.
  *
  * Run:   node server.js
- * Open:  http://localhost:3000
+ * Open:  http://localhost:3001
  */
 
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const PUBLIC_DIR = path.join(__dirname, 'public');
 
 const MIME = {
@@ -73,7 +73,7 @@ const server = http.createServer((req, res) => {
     //
     // Then create public/waict-manifest.json (the manifest you build by
     // hashing each file), restart the server, and verify with:
-    //   curl -I http://localhost:3000
+    //   curl -I http://localhost:3001
     // ================================================================
 
     res.writeHead(200, headers);

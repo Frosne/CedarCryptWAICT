@@ -16,14 +16,14 @@
  * No dependencies -- uses only Node's built-in modules.
  *
  * Run:   node server.js
- * Open:  http://localhost:3000
+ * Open:  http://localhost:3002
  */
 
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 const PUBLIC_DIR = path.join(__dirname, 'public');
 
 const MIME = {
